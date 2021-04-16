@@ -1,0 +1,112 @@
+body{
+    background-image:url(https://static.vecteezy.com/system/resources/previews/000/539/843/non_2x/red-or-orange-brick-wall-backgroud-vector-illustration.jpg);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+*{
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+    font-weight: 25;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box ; */
+}
+a:hover{
+    color:rgb(0, 0, 0);
+}
+
+.cabeza{
+     
+     background-color: rgb(0, 152, 253); 
+     outline: 3px solid rgba(48, 46, 46, 0.63);
+     width: 100%;
+     
+     
+}
+
+.cabeza-princ{
+
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#imagenPrinc{
+    
+    object-fit: cover;
+    width: 100px; 
+    height: 70px;
+    margin-right: auto;
+
+}
+
+
+
+.enlaces {
+    
+    width: 400px;
+    display: flex;
+    top: 20px;
+    position: relative;
+    flex-direction: column;
+
+}
+
+.enlaces img{
+    
+    position: relative;
+    width: 30px;
+}
+
+
+.enlaces a{ 
+
+    position: relative;
+    margin: 6px;
+    left: 0px;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.enlaces div{
+    margin: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+}
+
+#obras-img:hover ~ .obras{
+    opacity: 1;
+}
+.obras:hover{
+    opacity: 1;
+}
+
+#trabajos-img:hover ~ .trabajos{
+    opacity: 1;
+}
+.trabajos:hover{
+    opacity: 1;
+}
+
+#trabajadores-img:hover ~ .trabajadores{
+    opacity: 1;
+}
+.trabajadores:hover{
+    opacity: 1;
+}
+
+#email-img:hover ~ .email{
+    opacity: 1;
+}
+.email:hover{
+    opacity: 1;
+}
+
+
+.info-cabeza{
+    width: 700px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
